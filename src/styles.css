@@ -1,0 +1,128 @@
+/*Estilos generales*/
+body {
+  width: auto;
+  height: 1650px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/originals/21/92/e7/2192e77b6813dded793f845b7b9cd51f.png);
+  background-attachment: sans-serif;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: blue;
+  margin: 0px;
+  vertical-align: 1000px;
+  font-size: 400%;
+}
+/*
+.fondo {
+  width: auto;
+  height: 1650px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: sans-serif;
+}*/
+
+/*Menù*/
+.navegacion {
+  width: 80%;
+  margin: 30px auto;
+  background: rgb(65, 65, 75);
+  text-align: center;
+}
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: rgb(0, 247, 255);
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu li a:hover {
+  color: white;
+  transition: all 1s;
+}
+
+.submenu {
+  position: absolute;
+  background: rgb(44, 39, 39);
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: rgb(0, 247, 255);
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+/*imagen*/
+img {
+  width: 25%;
+}
+/*Contenedor de la lista de integrantes*/
+.contenedor {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  float: left;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+}
+/*Contenedor de la lista de ejercicios*/
+.contenedorEJ {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  margin: 1px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+}
+/*parrafo*/
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+}
+.titulo_p {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  float: left;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+  color: blue;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-size: 100%;
+}
